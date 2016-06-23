@@ -44,7 +44,16 @@ namespace Portsonic.Cppt
                 _client = new Client();
 
                 //Load our platform OS
+                Console.WriteLine("Loading platform OS...");
                 _client.LoadPlatformOS();
+
+                //Load our platform Directory
+                Console.WriteLine("Loading platform Directory...");
+                _client.LoadPlatformDirectory();
+
+                //Load our platform Settings
+                Console.WriteLine("Loading platform Settings...");
+                _client.LoadPlatformSettings();
 
                 Console.WriteLine("Application initialized successfully!");
             }
