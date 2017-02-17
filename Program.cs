@@ -17,7 +17,7 @@ namespace Portsonic.Cppt
             try
             {
                 Console.WriteLine("Portsonic Communications, LLC");
-                Console.WriteLine("CPPT Version 1.0");
+                Console.WriteLine("CPPT Version 1.1.0");
                 Console.WriteLine("Data Test Harness");
                 Console.WriteLine("");
                 Console.WriteLine("Initializing...");
